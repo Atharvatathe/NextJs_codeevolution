@@ -4,6 +4,8 @@ import { Metadata } from "next";
 import "./globals.css";
 // import { ErrorWrapper } from "./error-wrapper";
 
+//Note: global error occusr in only production mode
+
 export const metadata: Metadata = {
   title: {
     default: "Next.js Tutorial - Codevolution",
@@ -20,7 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
+        {/* <ErrorWrapper> */}
         {children}
+        {/* </ErrorWrapper> */}
         <Footer />
       </body>
     </html>
