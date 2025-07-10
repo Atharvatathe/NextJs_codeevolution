@@ -1,6 +1,7 @@
 import Footer from "./footer/footer";
 import Header from "./header/header";
 import { Metadata } from "next";
+import "./globals.css";
 // import { ErrorWrapper } from "./error-wrapper";
 
 export const metadata: Metadata = {
