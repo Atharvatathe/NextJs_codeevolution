@@ -1,3 +1,5 @@
+export const dynamicParams = "ture"; // This enables dynamic params for the page by default is true
+
 export async function generateStaticParams() {
   return [{ id: "1" }, { id: "2" }, { id: "3" }];
 }
